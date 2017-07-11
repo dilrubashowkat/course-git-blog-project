@@ -211,6 +211,16 @@ h3 {
     background-color: lightblue;
 }
 
+h3.h5bp {
+      border: 0;
+      font: 0/0 a;
+      text-shadow: none;
+      color: transparent;
+      background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-90/test.png);
+      width: 300px;
+      height: 75px;
+    }
+
 
 
 p {
