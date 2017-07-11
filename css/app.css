@@ -7,7 +7,16 @@ bluegrey: #7d97ad
 aquamarine: #02ccba
 
 */
-
+div {
+margin:3px;
+min-height: 300px;
+background-color: lightpink;
+text-align: center;
+font-size: medium;
+}
+/*div {
+    background-color: lightblue;
+}*/
 html {
     box-sizing: border-box;
 }
@@ -32,6 +41,7 @@ h2,
 h3,
 h4 {
     font-family: 'Open Sans', sans-serif;
+    background-color: lightblue;
 }
 
 p {
@@ -60,6 +70,7 @@ h1 {
     position: relative;
     text-transform: uppercase;
     text-shadow: 0 0 1px white;
+    background-color: lightblue;
 }
 
 h1::after {
@@ -69,6 +80,7 @@ h1::after {
     height: 15px;
     width: 15px;
     position: absolute;
+    background-color: lightblue;
 }
 
 
@@ -193,15 +205,14 @@ footer {
     width: 1px;
     white-space: nowrap;
 }
-h1{color: green;}
+h1{background-color: lightblue;}
 h3 {
-    background-color: green;
-}
 
-div {
     background-color: lightblue;
 }
 
+
+
 p {
-    background-color: yellow;
+    background-color: lightyellow;
 }
