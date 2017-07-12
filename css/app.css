@@ -14,9 +14,10 @@ background-color: lightpink;
 text-align: center;
 font-size: medium;
 }
-/*div {
+div
+.div1 {
     background-color: lightblue;
-}*/
+}
 html {
     box-sizing: border-box;
 }
