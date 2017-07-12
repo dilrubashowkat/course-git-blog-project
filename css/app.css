@@ -7,15 +7,16 @@ bluegrey: #7d97ad
 aquamarine: #02ccba
 
 */
-div {
+div
+{
 margin:3px;
 min-height: 300px;
 background-color: lightpink;
 text-align: center;
 font-size: medium;
 }
-div
-.div1 {
+
+.addition {
     background-color: lightblue;
 }
 html {
