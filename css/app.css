@@ -7,6 +7,15 @@ bluegrey: #7d97ad
 aquamarine: #02ccba
 
 */
+.myDiv
+{
+margin-bottom:10px;
+min-height: 50px;
+background-color: silver;
+text-align: center;
+font-size: large;
+padding: 10px;
+}
 .myClass
 {
    background-color:#eee;
