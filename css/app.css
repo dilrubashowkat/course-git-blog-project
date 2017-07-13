@@ -22,6 +22,9 @@ padding: 10px;
    color:#1dd;
 }
 
+hr
+{border: 2px solid red}
+
 .myColor
 {
    color:#111;
