@@ -56,9 +56,10 @@
               </footer>
               <ol>
                   <li class="list-group-item-danger"> <span class="badge"> new </span>Arab</li>
-                  <li>Bahamans</li>
-                  <li>California</li>
-                  <li>Denmark</li>
+                  <li class="list-group-item-info">Bahamans</li>
+                  <li class="list-group-item-success">California</li>
+                  <li class="list-group-item-warning">Denmark</li>
+                  <li >Hello Portland</li>
               </ol>
               <dl class="dl-horizontal">
                   <dt>
@@ -84,7 +85,70 @@
     <a href="https://www.google.com/" class="list-group-item"> Google</a>
     <a href="https://github.com/" class="list-group-item"> Github</a>
 </div>
+<div>
+    <pre class="pre-scrollable">
 
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    unsigned int n;
+    unsigned long long factorial = 1;
+
+    cout << "Enter a positive integer: ";
+    cin >> n;
+
+    for(int i = 1; i <=n; ++i)
+    {
+        factorial *= i;
+    }
+
+    cout << "Factorial of " << n << " = " << factorial;
+    return 0;
+}
+<h4>Output</h4>
+<samp>Enter a positive integer: 12
+Factorial of 12 = 479001600</samp>
+<p>
+    copy text <kbd> CTRL+C</kbd>
+</p>
+    </pre>
+</div>
+<div>
+    <table class="table table-striped table-bordered table-hover table-condensed">
+        <thead>
+            <tr>
+                <th>Gender</th>
+                <th>Age</th>
+                <th>Major</th>
+                <th>Video Gaming Experience</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="active">
+            <td>Female</td>
+            <td>28</td>
+            <td>Computer Science</td>
+            <td>15</td>
+        </tr>
+        <tr class="info">
+            <td>Male</td>
+            <td>28</td>
+            <td>Computer Science</td>
+            <td>10</td>
+        </tr>
+        <tr class="danger">
+            <td>Female</td>
+            <td>24</td>
+            <td>Social Science</td>
+            <td>5</td>
+        </tr>
+        </tbody>
+
+    </table>
+</div>
     <footer>
         Made with &hearts;
     </footer>
